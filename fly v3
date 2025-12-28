@@ -112,7 +112,7 @@ mini.Parent = main.Frame
 mini.BackgroundColor3 = Color3.fromRGB(192, 150, 230)
 mini.Font = "SourceSans"
 mini.Size = UDim2.new(0, 45, 0, 28)
-mini.Text = "缩小"
+mini.Text = "-"
 mini.TextSize = 40
 mini.Position = UDim2.new(0, 44, -1, 27)
 
